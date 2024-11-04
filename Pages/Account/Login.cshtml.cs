@@ -1,8 +1,9 @@
-using Autenticacion.Model;
-using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
+using Microsoft.Identity.Client.Platforms.Features.DesktopOs;
 using System.Security.Claims;
+using Microsoft.AspNetCore.Authentication;
+using Autenticacion.Model;
 
 namespace Autenticacion.Pages.Account
 {
@@ -39,4 +40,3 @@ namespace Autenticacion.Pages.Account
         }
     }
 }
-
